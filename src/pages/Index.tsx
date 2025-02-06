@@ -1,6 +1,8 @@
 import { Wand2, Sparkles, LineChart, ShoppingCart } from "lucide-react";
 import BeforeAfterSlider from "@/components/BeforeAfterSlider";
 import FeatureCard from "@/components/FeatureCard";
+import beforeImage from "../../assets/before-living-space.jpeg";
+import afterImage from "../../assets/after-pic-with-product-preview.jpeg";
 
 const Index = () => {
   return (
@@ -24,8 +26,8 @@ const Index = () => {
 
           <div className="max-w-4xl mx-auto">
             <BeforeAfterSlider
-              beforeImage="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0"
-              afterImage="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+              beforeImage={beforeImage}
+              afterImage={afterImage}
               beforeLabel="Original Space"
               afterLabel="With New Blinds"
             />
